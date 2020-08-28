@@ -23,6 +23,7 @@ class submodule_example extends Component {
             <div>
                 <p>This text is within the submodule</p>
                 <p>Number: {this.state.number}</p>
+                <button onClick={this.handleClick}>Click to increase</button>
             </div>
         )
     }
